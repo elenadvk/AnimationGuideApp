@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GuideActivity"
+    android:orientation="vertical"
+    android:background="#FFFFFF">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#ffca28">
+
+        <ImageView
+            android:id="@+id/backArrow"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/arrowicon"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="15dp"
+            />
+        <TextView
+            android:id="@+id/selectedTopicName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Selected Topic Name"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="15dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            >
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/glossaryicon"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="15dp"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="10dp"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:lineSpacingExtra="5dp"
+        android:text="      Задумывались ли о том, как на экранах оживают рисунки? Как персонажи приходят в движение, как взаимодействуют друг с другом? Это все магия анимации. В умелых руках художников-мультипликаторов возможно всякое чудо."
+        android:textColor="#696969" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="10dp"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:lineSpacingExtra="5dp"
+        android:text="      Дизайн персонажей и окружения создается на основе форм. Чем ярче выражены эти формы, тем интереснее будет выглядеть картинка. Давайте посмотрим на то, как представляет себе различные объекты художник Mitch Leeuwe."
+        android:textColor="#696969" />
+
+    <ImageView
+        android:layout_width="473dp"
+        android:layout_height="389dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="0dp"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:src="@drawable/design1" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="10dp"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:lineSpacingExtra="5dp"
+        android:textSize="12dp"
+        android:text="Примеры форм персонажей"
+        android:textColor="#888888" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="298dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:src="@drawable/design2" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="10dp"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:lineSpacingExtra="5dp"
+        android:textSize="12dp"
+        android:text="Примеры форм объектов окружения"
+        android:textColor="#888888" />
+
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="10dp"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:lineSpacingExtra="5dp"
+        android:text="      Другой особенностью создания интересного персонажа является силуэт. Чем точнее читается силуэт персонажа, тем интереснее он будет выглядеть. Ниже рассмотрим силуэты нескольких персонажей. Всех узнали?"
+        android:textColor="#696969" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="298dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:src="@drawable/silhouette" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="10dp"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:lineSpacingExtra="5dp"
+        android:textSize="12dp"
+        android:text="Силуэты персонажей"
+        android:textColor="#888888" />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="10dp"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:lineSpacingExtra="5dp"
+        android:text="      Наконец, третий элемент создания отличного персонажа - это цвет. Цвет в визуальном дизайне фильма - одна из самых непростых задач. Художнику по персонажам необходимо одновременно выполнить 3 задачи: убедиться что персонажи гармонично смотрятся на фонах и не сливаются с ними, направить внимание зрителя на важные детали, а также передать характер героя."
+        android:textColor="#696969" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="298dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:src="@drawable/color" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="10dp"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:lineSpacingExtra="5dp"
+        android:textSize="12dp"
+        android:text="Цвет в создании персонажа"
+        android:textColor="#888888" />
+
+</LinearLayout>
+</ScrollView>

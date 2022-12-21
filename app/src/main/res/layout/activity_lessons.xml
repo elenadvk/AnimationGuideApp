@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".AnimLessActivity"
+        android:orientation="vertical"
+        android:background="#FFFFFF">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#ffca28">
+
+            <ImageView
+                android:id="@+id/backArrow"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/arrowicon"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="15dp"
+                />
+            <TextView
+                android:id="@+id/selectedTopicName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="Selected Topic Name"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="15dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                >
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/glossaryicon"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="15dp"/>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:lineSpacingExtra="5dp"
+            android:text="              51 упражнение для аниматора"
+            android:textSize="20dp"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:lineSpacingExtra="5dp"
+            android:text="      Каков самый верный способ для развития своих возможностей? Практика! Никакие статьи, преподаватели или трюки не сделают из вас художника-аниматора, пока вы не начнете практиковаться и набивать свою руку.
+Вот список упражнений, которые дадут вам положительный эффект. Возможно, вы уже слышали или даже делали некоторые из них, но это лишь подчеркивает то, что вы на верном пути!"
+            android:textSize="15dp"
+            android:textColor="#696969" />
+
+     <!--   <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="298dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="0dp"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:src="@drawable/animchar" /> -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:lineSpacingExtra="5dp"
+            android:text="      Ниже приводится список первых 15 упражений. Познакомиться с полным списком и почитать подробнее об упражнениях вы можете на сайте 51 упражнение для художника-аниматора."
+            android:textColor="#696969" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:lineSpacingExtra="5dp"
+            android:text="1. Мяч прыгает на месте (зацикленная анимация)"
+            android:textColor="#696969" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:lineSpacingExtra="5dp"
+            android:text="2. Мяч прыгает через весь экран"
+            android:textColor="#696969" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:lineSpacingExtra="5dp"
+            android:text="3. Кирпич подает с полки на землю"
+            android:textColor="#696969" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:lineSpacingExtra="5dp"
+            android:text="4. Простой поворот головы персонажа"
+            android:textColor="#696969" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:lineSpacingExtra="5dp"
+            android:text="5. Персонаж моргает"
+            android:textColor="#696969" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:lineSpacingExtra="5dp"
+            android:text="6. Персонаж поворачивает голову с подготовкой к действию"
+            android:textColor="#696969" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:lineSpacingExtra="5dp"
+            android:text="7. Персонаж думает (показать мысленный процесс"
+            android:textColor="#696969" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:lineSpacingExtra="5dp"
+            android:text="8. Подвешенный мешок муки раскачивается"
+            android:textColor="#696969" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:lineSpacingExtra="5dp"
+            android:text="9. Мешок муки прыгает"
+            android:textColor="#696969" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:lineSpacingExtra="5dp"
+            android:text="10. Мешок муки падает (по циклу либо с ударом о землю)"
+            android:textColor="#696969" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:lineSpacingExtra="5dp"
+            android:text="11. Мешок муки пинает мяч"
+            android:textColor="#696969" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:lineSpacingExtra="5dp"
+            android:text="12. Изменение эмоции персонажа (с радости на грусть, с грусти на злость и т.д.)"
+            android:textColor="#696969" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:lineSpacingExtra="5dp"
+            android:text="13. Персонаж перепрыгивает (пустоту, щель, обрыв...)"
+            android:textColor="#696969" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:lineSpacingExtra="5dp"
+            android:text="14. Персонаж встает со стула"
+            android:textColor="#696969" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:lineSpacingExtra="5dp"
+            android:text="15. Цикл ходьбы"
+            android:textColor="#696969" />
+
+
+    </LinearLayout>
+</ScrollView>
